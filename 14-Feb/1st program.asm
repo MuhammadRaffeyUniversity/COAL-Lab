@@ -1,8 +1,8 @@
 .model small;model segment there are 6 types of models
 ;--tiny
 ;--small
-;--medium
 ;--compact
+;--medium
 ;--large
 ;--huge
 
