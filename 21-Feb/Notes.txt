@@ -23,18 +23,21 @@ Registers
 		Even Faster Than CACHE size reduced to bits i.e 64bits.
 		There are Three Types of Registers:
 			- Genernal Purpose Registers
-				- Ax
-				- Bx
-				- Cx
-				- Dx
+				- Ax - Accumulator -> Used for Inp/Out & Add/Subtract. AL(Lower) and AH(Higher).
+				- Bx - Base -> Address working i.e storing.
+				- Cx - Count -> Used for Counting i.e Loops.
+				- Dx - Data -> Stores Data and gets involved in  Division / Multiplication 
 				- SP
 				- BP
 				- SI
 				- DI
 			- Special Purpose Registers
-				- FLAGS
+				- FLAGS -> 8 Types
 			- Segment Registers
 				- CS
 				- DS
 				- SS
 				- ES
+
+
+ASCII(American Standard Code for Information Interchange)
