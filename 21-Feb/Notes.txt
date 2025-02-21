@@ -1,0 +1,23 @@
+Types of Languages 
+	- High Level
+	- Low Level
+	- Machine Language
+
+Memory
+	Used to Store Data
+	- RAM -> 2 Types
+			- SRAM
+			- DRAM
+	- ROM -> 4 Types
+			- EROM
+			- PROM
+			- EPROM
+			- EEPROM
+			
+
+CACHE Memory
+	Faster Than RAM and size is very small i.e in MBs, Keeps Frequently used Programs ready
+	to execute.
+
+Resgisters
+		Even Faster Than CACHE size reduced to bits i.e 64bits.
