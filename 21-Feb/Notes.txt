@@ -19,5 +19,22 @@ CACHE Memory
 	Faster Than RAM and size is very small i.e in MBs, Keeps Frequently used Programs ready
 	to execute.
 
-Resgisters
+Registers
 		Even Faster Than CACHE size reduced to bits i.e 64bits.
+		There are Three Types of Registers:
+			- Genernal Purpose Registers
+				- Ax
+				- Bx
+				- Cx
+				- Dx
+				- SP
+				- BP
+				- SI
+				- DI
+			- Special Purpose Registers
+				- FLAGS
+			- Segment Registers
+				- CS
+				- DS
+				- SS
+				- ES
