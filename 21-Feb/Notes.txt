@@ -41,3 +41,19 @@ Registers
 
 
 ASCII(American Standard Code for Information Interchange)
+
+MOV Instruction
+	- 8 bit reg for small values 0-255
+	- 16 bit reg for 0-65535
+	- move a value from one register to another.
+	- Used for both in and out of values
+	- Process of taking and sending value is called Addressing
+		- THREE TYPES OF ADDRESSING
+			- Register to Register: MOV Ax,Bx -> Have to make sure they are of Same Size (RULE)
+			- Immediate(Constant) to Register: MOV Ax,
+				THERE are Three types of Constant values
+					- character  MOV Ax,'A'
+					- decimal  MOV Ax, 65d
+					- hexadecimal  MOV Ax,41
+			- Memory to Register: MOV Ax,[4000h] -> Have to make sure memory is of Same Size of Register
+	- Syntax: MOV Destination,Source
