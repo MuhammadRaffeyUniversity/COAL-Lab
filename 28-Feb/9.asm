@@ -17,6 +17,8 @@ main proc
       
     mov dx,10
     int 21h
+    mov dx,13
+    int 21h
 
     
     mov dx,46h;F
@@ -28,9 +30,12 @@ main proc
     mov dx,46h;F
     int 21h
 
+
     mov dx,10
     int 21h
-     
+    mov dx,13
+    int 21h
+
     mov dx,45h;E
     int 21h
 
@@ -38,6 +43,8 @@ main proc
     int 21h
     
     mov dx,59h;Y
+    int 21h
+    mov dx,13
     int 21h
     
     mov ah,4ch
