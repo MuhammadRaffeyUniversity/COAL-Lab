@@ -21,12 +21,13 @@ CACHE Memory
 
 Registers
 		Even Faster Than CACHE size reduced to bits i.e 64bits.
-		There are Three Types of Registers:
+		There are Four Types of Registers:
 			- Genernal Purpose Registers
 				- Ax - Accumulator -> Used for Inp/Out & Add/Subtract. AL(Lower) and AH(Higher).
 				- Bx - Base -> Address working i.e storing.
 				- Cx - Count -> Used for Counting i.e Loops.
-				- Dx - Data -> Stores Data and gets involved in  Division / Multiplication 
+				- Dx - Data -> Stores Data and gets involved in  Division / Multiplication
+			- Index Registers
 				- SP
 				- BP
 				- SI
@@ -57,3 +58,4 @@ MOV Instruction
 					- hexadecimal  MOV Ax,41
 			- Memory to Register: MOV Ax,[4000h] -> Have to make sure memory is of Same Size of Register
 	- Syntax: MOV Destination,Source
+	- Can not move memory to memory, segment to register, segment to segment-> ALL ARE ILLEGAL
