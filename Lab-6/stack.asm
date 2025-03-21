@@ -4,8 +4,8 @@
 ;sp->stack pointer:points at the top of the stack
 ;bp->base pointer: points at the base of the stack
 ;push command is used to store some value in stack 
-;ah->has 5 saved push ah will push 5 in stack
-;pop->is used to get a value from stack  pop ah; saves the first value (top value of stack) in ah
+;ax->has 5 saved push ax will push 5 in stack
+;pop->is used to get a value from stack  pop ax; saves the first value (top value of stack) in ah
 ;pushf
 ;popf
 .data
